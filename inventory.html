@@ -2,59 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Inventory | DriveTime Used Cars</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>DriveTime Used Cars</h1>
+
+  <header class="navbar">
+    <div class="logo">DriveTime</div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="inventory.html">Inventory</a>
-      <a href="#">Contact</a>
-      <a href="#">About</a>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="inventory.html" class="nav-link">Inventory</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#about" class="nav-link">About</a>
     </nav>
   </header>
 
   <main>
     <h2>Available Cars</h2>
-    <section class="inventory">
-      <div class="car-card">
-        <img src="car1.jpg" alt="2018 Honda Civic" />
-        <h3>2018 Honda Civic EX</h3>
-        <p>Mileage: 42,000 miles</p>
-        <p>Price: $15,995</p>
-        <p>Transmission: Automatic</p>
-        <p>Fuel: Gasoline</p>
-        <a href="#" class="btn">Contact for Details</a>
-      </div>
-<div class="car-card">
-  <img src="https://via.placeholder.com/300x200?text=2014+Jeep+Grand+Cherokee" alt="2014 Jeep Grand Cherokee" />
-  <h3>2014 Jeep Grand Cherokee</h3>
-  <p>Mileage: 75,000 miles</p>
-  <p>Price: $18,500</p>
-  <p>Transmission: Automatic</p>
-  <p>Fuel: Gasoline</p>
-  <a href="#" class="btn">Contact for Details</a>
-</div>
+    <section class="inventory-grid">
 
       <div class="car-card">
-        <img src="car2.jpg" alt="2017 Toyota Camry" />
-        <h3>2017 Toyota Camry SE</h3>
-        <p>Mileage: 55,000 miles</p>
-        <p>Price: $14,500</p>
+        <img src="https://via.placeholder.com/300x200?text=2014+Jeep+Grand+Cherokee" alt="2014 Jeep Grand Cherokee" />
+        <h3>2014 Jeep Grand Cherokee</h3>
+        <p>Mileage: 75,000 miles</p>
+        <p>Price: $18,500</p>
         <p>Transmission: Automatic</p>
         <p>Fuel: Gasoline</p>
-        <a href="#" class="btn">Contact for Details</a>
+        <a href="#" class="btn-primary">Contact for Details</a>
       </div>
 
-      <!-- Add more car cards as needed -->
+      <!-- Add more car cards here -->
+
     </section>
   </main>
 
-  <footer>
+  <footer id="contact">
     <p>© 2025 DriveTime Used Cars | 123 Main Street, YourCity | (123) 456-7890</p>
   </footer>
+
 </body>
 </html>
